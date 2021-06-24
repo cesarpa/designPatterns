@@ -1,4 +1,4 @@
-package com.patterns.prototype
+package com.patterns.creational.prototype
 
 class Book(var id: Int, var name: String) {
     override fun toString(): String {

@@ -1,4 +1,4 @@
-package com.patterns.prototype
+package com.patterns.creational.prototype
 
 class BookShop(var name: String? = null) : Cloneable {
     var books: MutableList<Book> = mutableListOf()
